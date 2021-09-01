@@ -1,2 +1,4 @@
-# stocktrading
-nterday Stock Predictions via Algorithmic Trading: A Comparative Analysis of Machine Learning Approaches
+# Interday Stock Predictions via Algorithmic Trading: A Comparative Analysis of Machine Learning Approaches
+
+## Abstract
+This project aims to explore how the predictive power of machine learning models can reap financial benefits for investors who trade based on future price prediction. Investors in the stock market can maximize their profit by buying or selling their investment if they can determine when to enter and exit a position. However, the volatile, stochastic nature of the market makes it difficult to forecast stock results. With increasing popularity, machine learning algorithms have been used to predict financial markets with some degree of success. To this end, we implemented multiple machine learning algorithms including: support vector machines (SVM), support vector regression (SVR), Long-Short Term memory (LSTM), Convolutional Neural Networks (CNN), and combinations of the above algorithms to determine the next-day trading actions and outcomes. The construction of the predictive models is based on historical information of the index extracted through Yahoo finance. Using the predicted results from our models to generate portfolio value over time, a combination of CNN+LSTM algorithm had the best performance.
